@@ -4,10 +4,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 
+import {RoomProvider} from './context'
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+ 
+  <RoomProvider>
     <Router>
       <App />
     </Router>
-  </React.StrictMode>
+  </RoomProvider>
+ 
 );
