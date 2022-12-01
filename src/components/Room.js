@@ -22,6 +22,7 @@ export default function Room({room}) {
   )
 }
 
+
 Room.propTypes={
     room:PropTypes.shape({
        name: PropTypes.string.isRequired ,
